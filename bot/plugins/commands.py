@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 Our Group 🔰', url="https://t.me/mallu_moviez_world"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 Our Group 🔰', url="https://t.me/mallu_moviez_world"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 Our Group 🔰', url="https://t.me/mallu_moviez_world"
                                 )
                         ]
                     ]
@@ -89,12 +89,14 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('🔰 Our Group 🔰', url='https://t.me/mallu_moviez_world'),
+        InlineKeyboardButton('🎖️ Malayalam Movies 🎖️', url ='https://t.me/malayalam_movies_world')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('🎖️ All Movies 🎖️', url='https://t.me/all_movie_world_official')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('🎖️ Tamil Movies 🎖️',  url='https://t.me/tamil_movie_world')
+    ],[
+        InlineKeyboardButton('🎖️ Web Series 🎖️',  url='https://t.me/web_series_movie_world')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
